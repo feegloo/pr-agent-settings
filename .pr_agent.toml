@@ -38,14 +38,14 @@ num_code_suggestions_per_chunk = 1
 
 [github_app]
 pr_commands = [
-    "/describe",
+    "/agentic_describe",
     "/review"
 ]
 
 # settings for "pull_request" event with "synchronize" action - used to detect and handle push triggers for new commits
 handle_push_trigger = true
 push_commands = [
-    "/describe"
+    "/agentic_describe"
 ]
 
 [jira]
